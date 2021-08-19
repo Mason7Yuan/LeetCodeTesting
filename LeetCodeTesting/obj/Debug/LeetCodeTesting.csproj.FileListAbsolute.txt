@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\LeetCodeTesting\bin\Debug\LeetCodeTesting.exe.config
+C:\Users\User\source\repos\LeetCodeTesting\bin\Debug\LeetCodeTesting.exe
+C:\Users\User\source\repos\LeetCodeTesting\bin\Debug\LeetCodeTesting.pdb
+C:\Users\User\source\repos\LeetCodeTesting\obj\Debug\LeetCodeTesting.csprojAssemblyReference.cache
+C:\Users\User\source\repos\LeetCodeTesting\obj\Debug\LeetCodeTesting.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\LeetCodeTesting\obj\Debug\LeetCodeTesting.exe
+C:\Users\User\source\repos\LeetCodeTesting\obj\Debug\LeetCodeTesting.pdb

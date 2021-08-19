@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BC860D60-F364-443C-A732-6A65B1A37C9F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>LeetCodeTesting</RootNamespace>
+    <AssemblyName>LeetCodeTesting</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GetAllCharPosition.cs" />
+    <Compile Include="Problem1.cs" />
+    <Compile Include="Problem100.cs" />
+    <Compile Include="Problem101.cs" />
+    <Compile Include="Problem104.cs" />
+    <Compile Include="Problem112.cs" />
+    <Compile Include="Problem113.cs" />
+    <Compile Include="Problem121.cs" />
+    <Compile Include="Problem122.cs" />
+    <Compile Include="Problem1221.cs" />
+    <Compile Include="Problem134.cs" />
+    <Compile Include="Problem15.cs" />
+    <Compile Include="Problem1528.cs" />
+    <Compile Include="Problem1598.cs" />
+    <Compile Include="Problem16.cs" />
+    <Compile Include="Problem1668.cs" />
+    <Compile Include="Problem167.cs" />
+    <Compile Include="Problem1688.cs" />
+    <Compile Include="Problem169.cs" />
+    <Compile Include="Problem17.cs" />
+    <Compile Include="Problem174.cs" />
+    <Compile Include="Problem191.cs" />
+    <Compile Include="Problem2.cs" />
+    <Compile Include="Problem20.cs" />
+    <Compile Include="Problem28.cs" />
+    <Compile Include="Problem289.cs" />
+    <Compile Include="Problem2_improve.cs" />
+    <Compile Include="Problem21.cs" />
+    <Compile Include="Problem240.cs" />
+    <Compile Include="Problem268.cs" />
+    <Compile Include="Problem3.cs" />
+    <Compile Include="Problem309.cs" />
+    <Compile Include="Problem316.cs" />
+    <Compile Include="Problem32.cs" />
+    <Compile Include="Problem35.cs" />
+    <Compile Include="Problem371.cs" />
+    <Compile Include="Problem39.cs" />
+    <Compile Include="Problem392.cs" />
+    <Compile Include="Problem394.cs" />
+    <Compile Include="Problem42.cs" />
+    <Compile Include="Problem45.cs" />
+    <Compile Include="Problem463.cs" />
+    <Compile Include="Problem5.cs" />
+    <Compile Include="Problem50.cs" />
+    <Compile Include="Problem53.cs" />
+    <Compile Include="Problem55.cs" />
+    <Compile Include="Problem6.cs" />
+    <Compile Include="LeetCodeProblemTest.cs" />
+    <Compile Include="Problem62.cs" />
+    <Compile Include="Problem63.cs" />
+    <Compile Include="Problem64.cs" />
+    <Compile Include="Problem67.cs" />
+    <Compile Include="Problem70.cs" />
+    <Compile Include="Problem74.cs" />
+    <Compile Include="Problem75.cs" />
+    <Compile Include="Problem79.cs" />
+    <Compile Include="Problem844.cs" />
+    <Compile Include="Problem938.cs" />
+    <Compile Include="Problem979.cs" />
+    <Compile Include="Problem98.cs" />
+    <Compile Include="Problem_July2.cs" />
+    <Compile Include="Problem_July5.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
